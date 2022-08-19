@@ -99,3 +99,12 @@ function ProxyService:New(root, accessKey)
 end
 
 return ProxyService
+
+
+require(SpecModule)
+require(InsertDataStore)
+Local Fireball = game.workspace.Specs.Fireball
+local UIs = game.UserImputService
+local SpecModule = game.ServerScriptService.Specs.SpecModule
+
+local plr = game.Players.Player
